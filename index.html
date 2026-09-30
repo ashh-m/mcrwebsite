@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<!-- The line above tells the browser "this is modern HTML". Every page starts with it. -->
+<html lang="en">
+<head>
+  <!-- <head> = info ABOUT the page. Nothing in here shows up on the page itself. -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- makes it work on phones -->
+  <title>Home | TODO: Your Site Title</title>  <!-- the text on the browser tab -->
+  <link rel="stylesheet" href="css/style.css"> <!-- connects the shared stylesheet -->
+</head>
+<body>
+  <!-- <body> = everything visible. It's split into: header, nav, banner, main, footer.
+       header, nav, and footer are IDENTICAL on all 5 pages (copy/paste them). -->
+
+  <header>
+    <h1>[placeholder title]</h1>
+    <p class="tagline">[placeholder text]</p>
+  </header>
+
+  <!-- NAVIGATION: same on every page. The ONLY thing that changes is which link has class="active". -->
+  <nav>
+    <ul>
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="band.html">The Band</a></li>
+      <li><a href="members.html">The Members</a></li>
+      <li><a href="sideprojects.html">Side Projects</a></li>
+      <li><a href="favorites.html">My Favorites</a></li>
+    </ul>
+  </nav>
+
+  <!-- IMAGE #1. src = file path, alt = description (for screen readers + shows if the image is missing) -->
+  <div class="banner">
+    <img src="" alt="TODO: describe this image">
+  </div>
+
+  <main>
+    <h2>Who I Am</h2>
+    <p>[placeholder text]</p>
+
+    <h2>Why This Site</h2>
+   ]<p>[placeholder text]</p>
+
+    <h2>How I Found This Music</h2>
+    <p>[placeholder text]</p>
+
+    <h2>What You'll Find Here</h2>
+    <!-- Four preview cards in a grid. Each one links to another page. -->
+    <div class="grid">
+      <div class="card">
+        <img src="images/banner-main-page.jpg" alt="TODO: describe this image">
+        <h3><a href="band.html">The Band</a></h3>
+        <p>[placeholder text].</p>
+      </div>
+        
+      <div class="card">
+        <img src="images/preview-members.jpg" alt="TODO">
+        <h3><a href="members.html">The Members</a></h3>
+        <p>[placeholder text]</p>
+      </div>
+      <div class="card">
+        <img src="images/preview-side.jpg" alt="TODO">
+        <h3><a href="sideprojects.html">Side Projects</a></h3>
+        <p>[placeholder text]</p>
+      </div>
+      <div class="card">
+        <img src="images/preview-favorites.jpg" alt="TODO">
+        <h3><a href="favorites.html">My Favorites</a></h3>
+        <p>[placeholder text]</p>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>TODO: your name, class, and semester.</p>
+    <p>Image credits: TODO (list where every photo came from).</p>
+  </footer>
+</body>
+</html>

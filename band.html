@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Band | TODO: Your Site Title</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- header + nav: copy from index.html. Move class="active" to "The Band". -->
+  <header>
+    <h1>TODO: Your Site Title</h1>
+    <p class="tagline">TODO: tagline</p>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="band.html" class="active">The Band</a></li>
+      <li><a href="members.html">The Members</a></li>
+      <li><a href="sideprojects.html">Side Projects</a></li>
+      <li><a href="favorites.html">My Favorites</a></li>
+    </ul>
+  </nav>
+
+<div class="banner">
+  <img src="images/banner-main-page.jpg" alt="TODO: describe this image">
+</div>
+
+<main>
+    <h2>My Chemical Romance: The Full Story</h2>
+    <p>My Chemical Romance formed in Newark, New Jersey, in 2001, after vocalist Gerard Way witnessed the September 11 attacks and decided to make music instead of pursuing comics. What started as a rough, emotional debut on an indie label became one of the defining rock bands of the 2000s</p>
+<h2>Through the Years</h2>
+<p>Click the arrows or dots below to move through the band's history.</p>
+
+<div class="era-carousel">
+
+  <!-- ERA 1 -->
+  <div class="era-slide active">
+    <img src="images/mcr-24.jpg" alt="First concert">
+    <h3>2001–2002: Formation & Underground</h3>
+    <div class="timeline">
+      <div class="timeline-entry">
+        <div class="year">2001</div>
+        <div class="month">September</div>
+        <p>Gerard Way forms the band with Matt Pelissier after witnessing the September 11th attacks. Ray Toro and Mikey Way join soon after.</p>
+      </div>
+      <div class="timeline-entry">
+        <div class="year">2002</div>
+        <div class="month">July</div>
+        <p>Frank Iero joins on rhythm guitar just before the independent album <i>I Brought You My Bullets, You Brought Me Your Love</i> is released on Eyeball Records.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ERA 2 -->
+  <div class="era-slide">
+    <img src="images/era2-breakthrough.jpg" alt="TODO">
+    <h3>2004–2006: Breakthrough</h3>
+    <div class="timeline">
+      <div class="timeline-entry">
+        <div class="year">2004</div>
+        <div class="month">June</div>
+        <p>Major label debut <i>Three Cheers For Sweet Revenge</i> is released, breaking the band into the mainstream.</p>
+      </div>
+      <div class="timeline-entry">
+        <div class="year">2004</div>
+        <div class="month">July</div>
+        <p>Bob Bryar replaces Matt Pelissier on drums.</p>
+      </div>
+      <div class="timeline-entry">
+        <div class="year">2006</div>
+        <div class="month">October</div>
+        <p>The concept album <i>The Black Parade</i> is released and becomes the band's defining work.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ERA 3 -->
+  <div class="era-slide">
+    <img src="images/era3-dangerdays.jpg" alt="TODO">
+    <h3>2010–2013: Danger Days & Departure</h3>
+    <div class="timeline">
+      <div class="timeline-entry">
+        <div class="year">2010</div>
+        <div class="month">March</div>
+        <p>Bob Bryar leaves the band.</p>
+      </div>
+      <div class="timeline-entry">
+        <div class="year">2010</div>
+        <div class="month">November</div>
+        <p>The band's fourth studio album <i>Danger Days: The True Lives of the Fabulous Killjoys</i> is released.</p>
+      </div>
+      <div class="timeline-entry">
+        <div class="year">2013</div>
+        <div class="month">March</div>
+        <p>The band announces its breakup.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ERA 4 -->
+  <div class="era-slide">
+    <img src="images/era4-reunion.jpg" alt="TODO">
+    <h3>2019–2022: Reunion</h3>
+    <div class="timeline">
+      <div class="timeline-entry">
+        <div class="year">2019</div>
+        <div class="month">October</div>
+        <p>The band announces a reunion tour.</p>
+      </div>
+      <div class="timeline-entry">
+        <div class="year">2019</div>
+        <div class="month">December</div>
+        <p>The band plays their comeback show in Los Angeles.</p>
+      </div>
+      <div class="timeline-entry">
+        <div class="year">2020–2021</div>
+        <p>The reunion tour is postponed several times due to the Covid-19 pandemic.</p>
+      </div>
+      <div class="timeline-entry">
+        <div class="year">2022</div>
+        <div class="month">May</div>
+        <p>"The Foundations of Decay" is randomly released after 8 years of no new music.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ERA 5 -->
+  <div class="era-slide">
+    <img src="images/era5-present.jpg" alt="TODO">
+    <h3>2024–2025: Present Day</h3>
+    <div class="timeline">
+      <div class="timeline-entry">
+        <div class="year">2024</div>
+        <div class="month">October</div>
+        <p>The band headlines When We Were Young Festival, performing <i>The Black Parade</i> in its entirety for the first time in 17 years.</p>
+      </div>
+      <div class="timeline-entry">
+        <div class="year">2025</div>
+        <div class="month">June</div>
+        <p>A remixed and remastered deluxe edition of <i>Three Cheers for Sweet Revenge</i> is released, 21 years after the original album.</p>
+      </div>
+      <div class="timeline-entry">
+        <div class="year">2025</div>
+        <div class="month">July</div>
+        <p>The "Long Live the Black Parade" stadium tour kicks off.</p>
+      </div>
+    </div>
+  </div>
+
+  <button class="prev" onclick="changeEra(-1)">&#10094;</button>
+  <button class="next" onclick="changeEra(1)">&#10095;</button>
+</div>
+
+<!-- dots showing which era you're on -->
+<div class="era-dots">
+  <span class="dot active" onclick="goToEra(0)"></span>
+  <span class="dot" onclick="goToEra(1)"></span>
+  <span class="dot" onclick="goToEra(2)"></span>
+  <span class="dot" onclick="goToEra(3)"></span>
+  <span class="dot" onclick="goToEra(4)"></span>
+</div>
+
+
+		<h2>The Albums</h2>
+    <div class="grid">
+      <div class="album-card album-1">
+        <div class="card-content">
+          <h3>I Brought You My Bullets, You Brought Me Your Love</h3>
+          <p>2002</p>
+        </div>
+      </div>
+      <div class="album-card album-2">
+        <div class="card-content">
+          <h3>Three Cheers for Sweet Revenge</h3>
+          <p>2004</p>
+        </div>
+      </div>
+      <div class="album-card album-3">
+        <div class="card-content">
+          <h3>The Black Parade</h3>
+          <p>2006</p>
+        </div>
+      </div>
+      <div class="album-card album-4">
+        <div class="card-content">
+          <h3>Danger Days: The True Lives of the Fabulous Killjoys</h3>
+          <p>2010</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- One card per album, in the same order as the grid above. --> 
+    <div class="card" style="--bg-image: url('images/bullets.jpg');"> 
+        <h3><i>I Brought You My Bullets, You Brought Me Your Love</i> (2002)</h3> 
+        <p>TODO: how it sounds (raw, screamy, post-hardcore edge), its themes, and a standout track...</p> 
+    </div> 
+
+    <div class="card" style="--bg-image: url('images/three-cheers.jpg');"> 
+        <h3><i>Three Cheers for Sweet Revenge</i> (2004)</h3> 
+        <p>TODO: how it sounds (sharper production, huge hooks), its revenge-love-story concept...</p> 
+    </div> 
+
+    <div class="card" style="--bg-image: url('images/black-parade.jpg');"> 
+        <h3><i>The Black Parade</i> (2006)</h3> 
+        <p>TODO: the rock-opera concept (a dying patient's memories), the Queen-sized ambition...</p> 
+    </div> 
+
+    <div class="card" style="--bg-image: url('images/dangerdays-bg.jpg');"> 
+        <h3><i>Danger Days: The True Lives of the Fabulous Killjoys</i> (2010)</h3> 
+        <p>TODO: how it sounds (brighter, synth-heavy, radio-friendly), the Killjoys comic-book concept...</p> 
+    </div>
+
+
+    <h2>Breakup and Return</h2>
+    <p>TODO: 2013 split, 2014 compilation, 2019 reunion, 2022 single.</p>
+
+    <h2>My Take</h2>
+    <p>TODO: Which era do you connect with most, and why? (This is your "about me" section for this page.)</p>
+  </main>
+
+  <footer>
+    <p>TODO: your name, class, semester.</p>
+    <p>Image credits: TODO</p>
+  </footer>
+	<script>
+  let currentEra = 0;
+
+  function showEra(index) {
+    const slides = document.querySelectorAll('.era-slide');
+    const dots = document.querySelectorAll('.era-dots .dot');
+    slides[currentEra].classList.remove('active');
+    dots[currentEra].classList.remove('active');
+    currentEra = (index + slides.length) % slides.length; // wraps around at both ends
+    slides[currentEra].classList.add('active');
+    dots[currentEra].classList.add('active');
+  }
+
+  function changeEra(step) {   // for the arrow buttons: step is +1 or -1
+    showEra(currentEra + step);
+  }
+
+  function goToEra(index) {    // for the dots: jump straight to that era
+    showEra(index);
+  }
+</script>
+</body>
+</html>
