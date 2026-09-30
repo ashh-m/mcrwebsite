@@ -103,10 +103,27 @@ main {
 .card { 
 	background: #282624;
 	background-image: var(--bg-image);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-blend-mode: multiply;
+	background-color: rgba(40, 38, 36, .82);
 	border-left: 4px solid var(--border); 
 	padding: 1rem 1.25rem; 
 	margin: 1rem 0; 
+	transition: transform .2s ease, background-color .2s ease, box-shadow .2s ease;
 	
+}
+
+.card[style*="--bg-image"]:hover {
+	transform: translateY(-3px);
+	background-image: linear-gradient(rgba(20, 14, 12, .48), rgba(20, 14, 12, .48)), var(--bg-image);
+	box-shadow: 0 6px 16px rgba(0, 0, 0, .35);
+}
+
+.card[style*="--bg-image"] {
+	background-image: linear-gradient(rgba(20, 14, 12, .68), rgba(20, 14, 12, .68)), var(--bg-image);
+	background-color: transparent;
 }
 
 .card img { 
@@ -184,10 +201,10 @@ figcaption {
 
 
 /* Change .gif to .jpg */
-.album-1 { background-image: url('images/bullets-bg.jpg'); }
-.album-2 { background-image: url('images/cheers-bg.jpg'); }
-.album-3 { background-image: url('images/parade-bg.jpg'); }
-.album-4 { background-image: url('images/dangerdays-bg.jpg'); }
+.album-1,
+.album-2,
+.album-3,
+.album-4 { background-image: url('../images/banner-main-page.jpg'); }
 /* ------------------------------------------- */
 
 blockquote { 
